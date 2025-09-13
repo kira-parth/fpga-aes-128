@@ -1,0 +1,33 @@
+Creating Block Design in Vivado
+
+Open Vivado → Create New Project.
+
+Add the exported AES IP into IP Catalog.
+
+Open IP Integrator → Create Block Design.
+
+Add the following blocks:
+
+Zynq Processing System (PS7)
+
+AXI DMA (for high-speed streaming)
+
+AES-128 IP (exported from Vitis HLS)
+
+Connect them:
+
+PS7 → AXI Interconnect → AXI DMA → AES IP.
+
+Ensure AXI4-Lite interface connects for control.
+
+Ensure AXI4-Stream interface connects for input/output data.
+
+Connect clocks and resets.
+
+3. Validate & Implement
+
+Run Validate Design (no errors should appear).
+
+Generate Bitstream.
+
+Export Hardware (XSA) including Bitstream.
