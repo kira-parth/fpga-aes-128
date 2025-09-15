@@ -25,7 +25,18 @@ It offloads the computationally expensive AES algorithm into FPGA fabric while c
 ## 🔋 Power Report
 <img width="1486" height="878" alt="Screenshot 2025-09-14 010621" src="https://github.com/user-attachments/assets/3fef738c-7047-4d65-a5ee-a7c585a9e0ee" />
 
+## Text Encryption & Decryption
 
+<img width="642" height="257" alt="image" src="https://github.com/user-attachments/assets/816c55a1-bab8-4f35-8e3d-4dd413cb5115" />
+
+## Image  Encryption & Decryption
+## Original Image
+<img width="715" height="746" alt="image" src="https://github.com/user-attachments/assets/0a2851aa-5946-45f1-a07e-e6c1ae1b3c99" />
+## Encrypted image 
+<img width="632" height="418" alt="image" src="https://github.com/user-attachments/assets/b450c862-97a1-4d28-b9d6-b2f5f3d14b56" />
+## Decrypted Image 
+<img width="530" height="301" alt="image" src="https://github.com/user-attachments/assets/8975da26-a048-48ce-b569-4e84572d429d" />
+ # Audio Encryption and Decryption you can see in video
 
 ## 🛠️ How to Build & Run
 ### Prerequisites
